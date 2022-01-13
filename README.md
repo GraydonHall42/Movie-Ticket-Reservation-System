@@ -21,7 +21,7 @@ Here is the ticket purchasing form, along with the email you receive after a suc
 ![](ProjectScreenshots/purchaseForm.png)<br>
 ![](ProjectScreenshots/purchaseEmail.png)<br>
 
-Here is the ticket cancellation form, along with the coupon you receive after a succesful cancellation. 
+Here is the ticket cancellation form, along with the coupon you receive after a successful cancellation. 
 It should be noted that tickets cannot be cancelled within 72 hours of the show starting.<br>
 ![](ProjectScreenshots/ticketCancellationForm.png)<br>
 ![](ProjectScreenshots/couponEmail.png)<br>
