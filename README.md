@@ -4,8 +4,32 @@ Term project for ENSF 614 - Fall 2021
 
 
 ## Objectives
+The goal of this project is to create a movie ticket registration system, where users can both buy and cancel tickets.
+Please refer to the [project description document](docs/Project_Description.pdf) for further details.
 
-Please refer to the [project description document](docs/Project_Description.pdf).
+## Project Demonstration
+First, we see the main screen where users select a movie. They also have the option to log in if they are 
+a registered user with an account<br>
+![](ProjectScreenshots/mainScreenWithLogIn.png)<br>
+
+Here is the signup form, where a user can sign up if they wish to be a registered user (Registered users
+pay a $15 annual fee, and don't pay cancellation fees, plus have access to movies not yet
+released publicly).<br>
+![](ProjectScreenshots/signupForm.png)<br>
+
+Here is the ticket purchasing form, along with the email you receive after a successful purchase<br>
+![](ProjectScreenshots/purchaseForm.png)<br>
+![](ProjectScreenshots/purchaseEmail.png)<br>
+
+Here is the ticket cancellation form, along with the coupon you receive after a succesful cancellation. 
+It should be noted that tickets cannot be cancelled within 72 hours of the show starting.<br>
+![](ProjectScreenshots/ticketCancellationForm.png)<br>
+![](ProjectScreenshots/couponEmail.png)<br>
+
+## Project Design
+Diagrams for the design phase of the project can be found in our [Design Phase Document](docs/Design_Phase.pdf),
+which contains: Use case scenarios, use case diagram, systems activity diagram, state transition diagram, system
+interation diagram, UML diagram, package diagram, deployment diagram, wireframes, and a database model. 
 
 
 ## Project Structure

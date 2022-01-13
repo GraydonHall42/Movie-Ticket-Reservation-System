@@ -163,6 +163,7 @@ public class MovieSelectionView extends JFrame {
 
     /**
      * Sets the form be formatted based on if a user is logged in.
+     *
      * @param user
      */
     public void setLoggedIn(RegisteredUser user) {
@@ -188,6 +189,7 @@ public class MovieSelectionView extends JFrame {
 
     /**
      * Populate the sign up tab with a users info (will be called account settings tab)
+     *
      * @param user
      */
     private void populateSignUpTab(RegisteredUser user) {
@@ -244,6 +246,7 @@ public class MovieSelectionView extends JFrame {
 
     /**
      * Populate the purchase tab with info when a user is logged in
+     *
      * @param user
      * @param price
      */
@@ -265,6 +268,7 @@ public class MovieSelectionView extends JFrame {
 
     /**
      * Populate the purchase tab with info when a user is not logged in
+     *
      * @param price
      */
     public void populatePurchaseTab(double price) {
@@ -344,6 +348,7 @@ public class MovieSelectionView extends JFrame {
 
     /**
      * set seats based on an input grid that shows if each seat is taken or not.
+     *
      * @param showtimeSeats
      */
     public void setSeats(int[][] showtimeSeats) {
@@ -358,6 +363,7 @@ public class MovieSelectionView extends JFrame {
 
     /**
      * Set options in theatre dropdown list
+     *
      * @param theatreOptions
      */
     public void setTheatreOptions(ArrayList<String> theatreOptions) {
@@ -369,6 +375,7 @@ public class MovieSelectionView extends JFrame {
 
     /**
      * Set options in showtime dropdown list
+     *
      * @param timeOptions
      */
     public void setTimeOptions(ArrayList<String> timeOptions) {
@@ -401,6 +408,7 @@ public class MovieSelectionView extends JFrame {
 
     /**
      * set options for movie dropdown list
+     *
      * @param movieOptions
      */
     public void setMovieOptions(ArrayList<String> movieOptions) {
@@ -412,6 +420,7 @@ public class MovieSelectionView extends JFrame {
 
     /**
      * sets which tab should be visible
+     *
      * @param viewName the view we want to see (either "main", "signup", "purchase", or "cancel"
      */
     public void setView(String viewName) {
@@ -473,6 +482,7 @@ public class MovieSelectionView extends JFrame {
 
     /**
      * set whether fields in the payment tab are enabled
+     *
      * @param b true to have all fields enabled
      */
     public void setPaymentDetailsEnabled(boolean b) {
@@ -712,8 +722,6 @@ public class MovieSelectionView extends JFrame {
     }
 
 
-
-
     // ************************ Action listeners ****************************
     class seatButtonColorChangeListener implements ActionListener {
         @Override
@@ -752,6 +760,7 @@ public class MovieSelectionView extends JFrame {
 
     /**
      * ensure all input in form is valid
+     *
      * @return true if form is valid
      */
     public boolean validateSignupForm() {
@@ -799,6 +808,7 @@ public class MovieSelectionView extends JFrame {
 
     /**
      * ensure all input in form is valid
+     *
      * @return true if form is valid
      */
     public boolean validatePurchaseForm() {
@@ -843,6 +853,7 @@ public class MovieSelectionView extends JFrame {
 
     /**
      * ensure all input in form is valid
+     *
      * @return true if form is valid
      */
     public boolean validateCancelForm() {
@@ -874,6 +885,7 @@ public class MovieSelectionView extends JFrame {
 
     /**
      * ensures CVC is valid 3 digit integer
+     *
      * @param c CVC
      * @return true if CVC is valid
      */
@@ -888,6 +900,7 @@ public class MovieSelectionView extends JFrame {
 
     /**
      * ensures credit card # is valid 16 digit integer
+     *
      * @param c credit card #
      * @return true if credit card # is valid
      */
@@ -903,6 +916,7 @@ public class MovieSelectionView extends JFrame {
 
     /**
      * check if String s is an ingeger
+     *
      * @param s integer as string
      * @return true if s is an integer
      */
@@ -917,6 +931,7 @@ public class MovieSelectionView extends JFrame {
 
     /**
      * check if String s is a big ingeger
+     *
      * @param s big integer as string
      * @return true if s is a big integer
      */
@@ -932,6 +947,7 @@ public class MovieSelectionView extends JFrame {
 
     /**
      * Check if date is of form "yyyy-MM-dd"
+     *
      * @param d date to check
      * @return true if date of form "yyyy-MM-dd"
      */
@@ -949,6 +965,7 @@ public class MovieSelectionView extends JFrame {
 
     /**
      * Display message to say field s is missing
+     *
      * @param s message to display
      */
     private void missingFieldMessage(String s) {
@@ -959,6 +976,7 @@ public class MovieSelectionView extends JFrame {
 
     /**
      * Validates if an email address is valid
+     *
      * @param email address to check
      * @return true if address is valid
      */
@@ -1243,6 +1261,9 @@ public class MovieSelectionView extends JFrame {
         panel5.add(cancellationEmailTextField, new GridConstraints(3, 1, 1, 2, GridConstraints.ANCHOR_WEST, GridConstraints.FILL_HORIZONTAL, GridConstraints.SIZEPOLICY_WANT_GROW, GridConstraints.SIZEPOLICY_FIXED, null, new Dimension(150, -1), null, 0, false));
     }
 
+    /**
+     * @noinspection ALL
+     */
     public JComponent $$$getRootComponent$$$() {
         return tabbedPane;
     }
