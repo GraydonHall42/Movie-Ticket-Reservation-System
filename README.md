@@ -10,13 +10,12 @@ Please refer to the [project description document](docs/Project_Description.pdf)
 ## Project Demonstration
 First, we see the main screen where users select a movie. They also have the option to log in if they are 
 a registered user with an account<br>
-<img src="ProjectScreenshots/mainScreenWithLogIn.png" height="500px">
-![](ProjectScreenshots/mainScreenWithLogIn.png)<br>
+<img src="ProjectScreenshots/mainScreenWithLogIn.png" height="400px">
 
 Here is the signup form, where a user can sign up if they wish to be a registered user (Registered users
 pay a $15 annual fee, and don't pay cancellation fees, plus have access to movies not yet
 released publicly).<br>
-![](ProjectScreenshots/signupForm.png)<br>
+<img src="ProjectScreenshots/signupForm.png" height="400px">
 
 Here is the ticket purchasing form, along with the email you receive after a successful purchase<br>
 ![](ProjectScreenshots/purchaseForm.png)<br>
