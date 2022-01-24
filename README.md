@@ -10,6 +10,7 @@ Please refer to the [project description document](docs/Project_Description.pdf)
 ## Project Demonstration
 First, we see the main screen where users select a movie. They also have the option to log in if they are 
 a registered user with an account<br>
+<img src="ProjectScreenshots/mainScreenWithLogIn.png" height="500px">
 ![](ProjectScreenshots/mainScreenWithLogIn.png)<br>
 
 Here is the signup form, where a user can sign up if they wish to be a registered user (Registered users
