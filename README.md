@@ -19,12 +19,12 @@ released publicly).<br>
 
 Here is the ticket purchasing form, along with the email you receive after a successful purchase<br>
 <img src="ProjectScreenshots/purchaseForm.png" height="400px">
-<img src="ProjectScreenshots/purchaseEmail.png" height="400px"><br>
+<img src="ProjectScreenshots/purchaseEmail.png" height="250px"><br>
 
 Here is the ticket cancellation form, along with the coupon you receive after a successful cancellation. 
 It should be noted that tickets cannot be cancelled within 72 hours of the show starting.<br>
 <img src="ProjectScreenshots/ticketCancellationForm.png" height="400px">
-<img src="ProjectScreenshots/couponEmail.png" height="400px"><br>
+<img src="ProjectScreenshots/couponEmail.png" height="250px"><br>
 
 ## Project Design
 Diagrams for the design phase of the project can be found in our [Design Phase Document](docs/Design_Phase.pdf),
