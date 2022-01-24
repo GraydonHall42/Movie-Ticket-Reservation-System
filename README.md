@@ -10,21 +10,21 @@ Please refer to the [project description document](docs/Project_Description.pdf)
 ## Project Demonstration
 First, we see the main screen where users select a movie. They also have the option to log in if they are 
 a registered user with an account<br>
-<img src="ProjectScreenshots/mainScreenWithLogIn.png" height="400px">
+<img src="ProjectScreenshots/mainScreenWithLogIn.png" height="400px"><br>
 
 Here is the signup form, where a user can sign up if they wish to be a registered user (Registered users
 pay a $15 annual fee, and don't pay cancellation fees, plus have access to movies not yet
 released publicly).<br>
-<img src="ProjectScreenshots/signupForm.png" height="400px">
+<img src="ProjectScreenshots/signupForm.png" height="400px"><br>
 
 Here is the ticket purchasing form, along with the email you receive after a successful purchase<br>
-![](ProjectScreenshots/purchaseForm.png)<br>
-![](ProjectScreenshots/purchaseEmail.png)<br>
+<img src="ProjectScreenshots/purchaseForm.png" height="400px">
+<img src="ProjectScreenshots/purchaseEmail.png" height="400px"><br>
 
 Here is the ticket cancellation form, along with the coupon you receive after a successful cancellation. 
 It should be noted that tickets cannot be cancelled within 72 hours of the show starting.<br>
-![](ProjectScreenshots/ticketCancellationForm.png)<br>
-![](ProjectScreenshots/couponEmail.png)<br>
+<img src="ProjectScreenshots/ticketCancellationForm.png" height="400px">
+<img src="ProjectScreenshots/couponEmail.png" height="400px"><br>
 
 ## Project Design
 Diagrams for the design phase of the project can be found in our [Design Phase Document](docs/Design_Phase.pdf),
